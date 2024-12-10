@@ -58,5 +58,43 @@ const users = [
 // console.log(Object.values(tinderUser));
 // console.log(Object.entries(tinderUser));
 
-console.log(tinderUser.hasOwnProperty('isLoggedIn'));
+// console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
+
+const course = {
+    courseName: "js in hindi",
+    price: "999",
+    courseInstructor: "hitesh"
+}
+
+// course.courseInstructor
+
+const {courseInstructor: instructor} = course
+console.log(instructor);
+
+/*
+const navbar = (props.company) => {
+
+}
+
+navbar(company = "hitest")
+propscompany baar baar nahi likhna chahe ga koyi (this is react)
+therefore we use 
+
+const navbar = ({company}) => {
+    
+}
+navbar(company = "hitesh")
+*/
+/*
+{
+    "name": "pratyush",
+    "coursename": "js in hindi",
+    "price": "free"
+}
+*/
+
+[
+    {},
+    {}
+]
